@@ -1,0 +1,194 @@
+//
+// This file is part of the GNU ARM Eclipse distribution.
+// Copyright (c) 2014 Liviu Ionescu.
+//
+
+// ----------------------------------------------------------------------------
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "diag/Trace.h"
+
+#include "string.h" /* for strcmp */
+#include "stdlib.h" /* for malloc */
+
+#include "Timer.h"
+#include "SPI-DMA.h"
+
+// ----- main() ---------------------------------------------------------------
+
+// Sample pragmas to cope with warnings. Please note the related line at
+// the end of this function, used to pop the compiler diagnostics status.
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wmissing-declarations"
+#pragma GCC diagnostic ignored "-Wreturn-type"
+
+int
+main(int argc, char* argv[])
+{
+  // Send a greeting to the trace device (skipped on Release).
+  trace_puts("Hello ARM World!");
+
+  // At this stage the system clock should have already been configured
+  // at high speed.
+  trace_printf("System clock: %u Hz\n", SystemCoreClock);
+
+  timer_start();
+  
+  uint32_t seconds = 0;
+
+  Configure_GPIO_LED();
+	GPIOC->BSRR = GPIO_BSRR_BS_8; /* lit blue LED */
+  Configure_GPIO_SPI1();
+  Configure_DMA1_SPI1();
+  Configure_SPI1();
+  Configure_GPIO_SPI2();
+  Configure_DMA1_SPI2();
+  Configure_SPI2();
+  Configure_GPIO_Button();
+  Configure_EXTI();
+
+  // Infinite loop
+  while (1)
+    {
+
+
+      ++seconds;
+
+      // Count seconds on the trace device.
+      trace_printf("Second %u\n", seconds);
+    }
+  // Infinite loop, never return.
+}
+
+/******************************************************************************/
+/*            Cortex-M0 Processor Exceptions Handlers                         */
+/******************************************************************************/
+
+/**
+  * @brief  This function handles NMI exception.
+  * @param  None
+  * @retval None
+  */
+void NMI_Handler(void)
+{
+}
+
+/**
+  * @brief  This function handles Hard Fault exception.
+  * @param  None
+  * @retval None
+  */
+void HardFault_Handler(void)
+{
+  /* Go to infinite loop when Hard Fault exception occurs */
+  while (1)
+  {
+  }
+}
+
+/**
+  * @brief  This function handles SVCall exception.
+  * @param  None
+  * @retval None
+  */
+void SVC_Handler(void)
+{
+}
+
+/**
+  * @brief  This function handles PendSVC exception.
+  * @param  None
+  * @retval None
+  */
+void PendSV_Handler(void)
+{
+}
+
+
+/**
+  * @brief  This function handles EXTI 0 1 interrupt request.
+  * @param  None
+  * @retval None
+  */
+void EXTI0_1_IRQHandler(void)
+{
+  EXTI->PR |= 1;
+
+  /* start 8-bit transmission with DMA*/
+  /* Prepare Slave */
+  DMA1_Channel5->CCR &=~ DMA_CCR_EN;
+  DMA1_Channel5->CNDTR = sizeof(stringtosendwSPI2); /* Data size */
+  DMA1_Channel5->CCR |= DMA_CCR_EN;
+  /* Prepare master */
+  DMA1_Channel3->CCR &=~ DMA_CCR_EN;
+  DMA1_Channel3->CNDTR = sizeof(stringtosendwSPI1); /* Data size */
+  DMA1_Channel3->CCR |= DMA_CCR_EN;
+}
+
+/**
+  * @brief  This function handles DMA1 channel 2 TC interrupt request.
+  * @param  None
+  * @retval None
+  */
+void DMA1_Channel2_3_IRQHandler(void)
+{
+  if((DMA1->ISR & DMA_ISR_TCIF2) == DMA_ISR_TCIF2)
+  {
+    DMA1->IFCR |= DMA_IFCR_CTCIF2; /* Clear TC flag */
+
+    if(strcmp((const char *)stringtosendwSPI2,(const char *)stringtoreceivewSPI1) == 0)
+    {
+      GPIOC->ODR ^= GPIO_ODR_9; /* toggle green LED */
+    }
+     else
+    {
+      GPIOC->BSRR = GPIO_BSRR_BS_6; /* lit red LED */
+    }
+
+    DMA1_Channel2->CCR &=~ DMA_CCR_EN;
+    DMA1_Channel2->CNDTR = sizeof(stringtosendwSPI2); /* Data size */
+    DMA1_Channel2->CCR |= DMA_CCR_EN;
+  }
+  else
+  {
+    GPIOC->BSRR = GPIO_BSRR_BS_6; /* lit red LED */
+    NVIC_DisableIRQ(DMA1_Channel2_3_IRQn); /* Disable DMA1_Channel2_3_IRQn */
+  }
+}
+
+/**
+  * @brief  This function handles DMA1 channel 4 TC interrupt request.
+  * @param  None
+  * @retval None
+  */
+void DMA1_Channel4_5_6_7_IRQHandler(void)
+{
+  if((DMA1->ISR & DMA_ISR_TCIF4) == DMA_ISR_TCIF4)
+  {
+    DMA1->IFCR |= DMA_IFCR_CTCIF4; /* Clear TC flag */
+
+    if(strcmp((const char *)stringtosendwSPI1,(const char *)stringtoreceivewSPI2) == 0)
+    {
+      GPIOC->ODR ^= GPIO_ODR_7; /* toggle orange LED */
+    }
+     else
+    {
+      GPIOC->BSRR = GPIO_BSRR_BS_8; /* lit orange LED */
+    }
+
+    DMA1_Channel4->CCR &=~ DMA_CCR_EN;
+    DMA1_Channel4->CNDTR = sizeof(stringtosendwSPI1); /* Data size */
+    DMA1_Channel4->CCR |= DMA_CCR_EN;
+  }
+  else
+  {
+    GPIOC->BSRR = GPIO_BSRR_BS_8; /* lit orange LED */
+    NVIC_DisableIRQ(DMA1_Channel4_5_IRQn); /* Disable DMA1_Channel4_5_IRQn */
+  }
+}
+
+#pragma GCC diagnostic pop
+
+// ----------------------------------------------------------------------------

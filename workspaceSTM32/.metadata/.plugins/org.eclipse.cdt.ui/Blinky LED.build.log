@@ -1,0 +1,22 @@
+09:44:17 **** Incremental Build of configuration Debug for project Blinky LED ****
+make all 
+Building file: ../system/src/stm32f0-stdperiph/stm32f0xx_adc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 -MMD -MP -MF"system/src/stm32f0-stdperiph/stm32f0xx_adc.d" -MT"system/src/stm32f0-stdperiph/stm32f0xx_adc.o" -c -o "system/src/stm32f0-stdperiph/stm32f0xx_adc.o" "../system/src/stm32f0-stdperiph/stm32f0xx_adc.c"
+In file included from ../system/src/stm32f0-stdperiph/../../include/stm32f0-stdperiph/stm32f0xx_adc.h:44:0,
+                 from ../system/src/stm32f0-stdperiph/stm32f0xx_adc.c:76:
+../system/src/stm32f0-stdperiph/../../include/stm32f0-stdperiph/../cmsis/stm32f0xx.h:102:3: error: #error "Please select first the target STM32F0xx device used in your application (in stm32f0xx.h file)"
+  #error "Please select first the target STM32F0xx device used in your application (in stm32f0xx.h file)"
+   ^
+In file included from ../system/src/stm32f0-stdperiph/../../include/stm32f0-stdperiph/../cmsis/core_cm0.h:52:0,
+                 from ../system/src/stm32f0-stdperiph/../../include/stm32f0-stdperiph/../cmsis/stm32f0xx.h:357,
+                 from ../system/src/stm32f0-stdperiph/../../include/stm32f0-stdperiph/stm32f0xx_adc.h:44,
+                 from ../system/src/stm32f0-stdperiph/stm32f0xx_adc.c:76:
+/usr/lib/gcc/arm-none-eabi/4.8.2/include/stdint.h:9:26: fatal error: stdint.h: No such file or directory
+ # include_next <stdint.h>
+                          ^
+compilation terminated.
+make: *** [system/src/stm32f0-stdperiph/stm32f0xx_adc.o] Error 1
+
+09:44:17 Build Finished (took 55ms)
+

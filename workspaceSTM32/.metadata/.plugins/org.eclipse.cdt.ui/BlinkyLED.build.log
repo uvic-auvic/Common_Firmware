@@ -1,0 +1,11 @@
+13:45:32 **** Incremental Build of configuration Debug for project BlinkyLED ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "BlinkyLED.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7137	    176	    416	   7729	   1e31	BlinkyLED.elf
+Finished building: BlinkyLED.siz
+ 
+
+13:45:33 Build Finished (took 58ms)
+

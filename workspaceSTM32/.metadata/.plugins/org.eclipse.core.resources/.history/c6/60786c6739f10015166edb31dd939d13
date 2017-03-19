@@ -1,0 +1,18 @@
+//
+// This file is part of the GNU ARM Eclipse distribution.
+// Copyright (c) 2014 Liviu Ionescu.
+//
+
+#ifndef I2C_DMA_H_
+#define I2C_DMA_H_
+
+#include "stm32f0xx.h"
+/* Private define ------------------------------------------------------------*/
+#define I2C1_OWN_ADDRESS (0x5A)
+#define I2C_CMD_TOGGLE_ORANGE (0x81)
+#define I2C_CMD_TOGGLE_GREEN (0x82)
+#define SIZE_OF_DATA  (2)
+
+// ----------------------------------------------------------------------------
+
+#endif // I2C_DMA_H_

@@ -1,0 +1,114 @@
+//
+// This file is part of the GNU ARM Eclipse distribution.
+// Copyright (c) 2014 Liviu Ionescu.
+//
+
+// ----------------------------------------------------------------------------
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "diag/Trace.h"
+
+#include "string.h" /* for strcmp */
+#include "stdlib.h" /* for malloc */
+
+#include "Timer.h"
+#include "SPI_DMA.h"
+
+// ----- main() ---------------------------------------------------------------
+
+// Sample pragmas to cope with warnings. Please note the related line at
+// the end of this function, used to pop the compiler diagnostics status.
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wmissing-declarations"
+#pragma GCC diagnostic ignored "-Wreturn-type"
+
+int
+main(int argc, char* argv[])
+{
+  // Send a greeting to the trace device (skipped on Release).
+  trace_puts("Hello ARM World!");
+
+  // At this stage the system clock should have already been configured
+  // at high speed.
+  trace_printf("System clock: %u Hz\n", SystemCoreClock);
+
+  timer_start();
+  
+  uint32_t seconds = 0;
+
+  Configure_GPIO_LED();
+	GPIOC->BSRR = GPIO_BSRR_BS_8; /* lit blue LED */
+  Configure_GPIO_SPI1();
+  Configure_DMA1_SPI1();
+  Configure_SPI1();
+  Configure_GPIO_SPI2();
+  Configure_DMA1_SPI2();
+  Configure_SPI2();
+  Configure_GPIO_Button();
+  Configure_EXTI();
+
+  // Infinite loop
+  while (1)
+    {
+
+
+      ++seconds;
+
+      // Count seconds on the trace device.
+      trace_printf("Second %u\n", seconds);
+    }
+  // Infinite loop, never return.
+}
+
+/******************************************************************************/
+/*            Cortex-M0 Processor Exceptions Handlers                         */
+/******************************************************************************/
+
+/**
+  * @brief  This function handles NMI exception.
+  * @param  None
+  * @retval None
+  */
+void NMI_Handler(void)
+{
+}
+
+/**
+  * @brief  This function handles Hard Fault exception.
+  * @param  None
+  * @retval None
+  */
+void HardFault_Handler(void)
+{
+  /* Go to infinite loop when Hard Fault exception occurs */
+  while (1)
+  {
+  }
+}
+
+/**
+  * @brief  This function handles SVCall exception.
+  * @param  None
+  * @retval None
+  */
+void SVC_Handler(void)
+{
+}
+
+/**
+  * @brief  This function handles PendSVC exception.
+  * @param  None
+  * @retval None
+  */
+void PendSV_Handler(void)
+{
+}
+
+
+
+
+#pragma GCC diagnostic pop
+
+// ----------------------------------------------------------------------------

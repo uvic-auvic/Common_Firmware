@@ -1,0 +1,14 @@
+//
+// This file is part of the GNU ARM Eclipse distribution.
+// Copyright (c) 2014 Liviu Ionescu.
+//
+
+#ifndef UART_Receiver_H_
+#define UART_Receiver_H_
+
+#include "stm32f0xx.h"
+
+
+// ----------------------------------------------------------------------------
+
+#endif // UART_Receiver_H_

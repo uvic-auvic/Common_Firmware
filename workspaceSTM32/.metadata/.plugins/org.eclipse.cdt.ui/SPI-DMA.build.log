@@ -1,0 +1,11 @@
+15:40:56 **** Incremental Build of configuration Release for project SPI-DMA ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SPI-DMA.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2486	    168	    288	   2942	    b7e	SPI-DMA.elf
+Finished building: SPI-DMA.siz
+ 
+
+15:40:56 Build Finished (took 61ms)
+

@@ -1,0 +1,11 @@
+16:08:15 **** Build of configuration Release for project I2C_SlaveTx_MasterRx ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_SlaveTx_MasterRx.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1894	     68	    264	   2226	    8b2	I2C_SlaveTx_MasterRx.elf
+Finished building: I2C_SlaveTx_MasterRx.siz
+ 
+
+16:08:15 Build Finished (took 56ms)
+

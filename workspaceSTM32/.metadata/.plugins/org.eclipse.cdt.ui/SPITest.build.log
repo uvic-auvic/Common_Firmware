@@ -1,0 +1,11 @@
+14:42:34 **** Incremental Build of configuration Release for project SPITest ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SPITest.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1786	     68	    264	   2118	    846	SPITest.elf
+Finished building: SPITest.siz
+ 
+
+14:42:34 Build Finished (took 61ms)
+

@@ -1,0 +1,11 @@
+10:07:05 **** Incremental Build of configuration Release for project UART_Transmitter ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "UART_Transmitter.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1622	     68	    264	   1954	    7a2	UART_Transmitter.elf
+Finished building: UART_Transmitter.siz
+ 
+
+10:07:05 Build Finished (took 62ms)
+

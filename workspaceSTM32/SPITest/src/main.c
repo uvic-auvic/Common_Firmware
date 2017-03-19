@@ -1,0 +1,184 @@
+//
+// This file demonstrates SPI Full Duplex communications
+//
+
+// ----------------------------------------------------------------------------
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "diag/Trace.h"
+
+#include "Timer.h"
+#include "SPI.h"
+/*
+===============================================================================
+                    ##### How to test this example #####
+ ===============================================================================
+   - Connect PA4/PB12, PA5/PB13, PA6/PB14, PA7/PB15.
+   - Launch the program
+   - Press the button
+   - The green and blue LEDs toggles (message transmit and receive)
+   - Else the red and orange LEDs lit
+   */
+
+// ----- main() ---------------------------------------------------------------
+// Sample pragmas to cope with warnings. Please note the related line at
+// the end of this function, used to pop the compiler diagnostics status.
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wmissing-declarations"
+#pragma GCC diagnostic ignored "-Wreturn-type"
+
+int
+main(int argc, char* argv[])
+{
+  // Send a greeting to the trace device (skipped on Release).
+  trace_puts("Hello ARM World!");
+
+  // At this stage the system clock should have already been configured
+  // at high speed.
+  trace_printf("System clock: %u Hz\n", SystemCoreClock);
+
+  Configure_GPIO_LED();
+	GPIOC->BSRR = GPIO_BSRR_BS_8; /* lit blue LED */
+  Configure_GPIO_SPI1();
+  Configure_SPI1();
+  Configure_GPIO_SPI2();
+  Configure_SPI2();
+  Configure_GPIO_Button();
+  Configure_EXTI();
+
+
+
+  // Infinite loop
+  while (1)
+    {
+
+    }
+  // Infinite loop, never return.
+}
+
+#pragma GCC diagnostic pop
+
+
+/******************************************************************************/
+/*            Cortex-M0 Processor Exceptions Handlers                         */
+/******************************************************************************/
+
+/**
+  * @brief  This function handles NMI exception.
+  * @param  None
+  * @retval None
+  */
+void NMI_Handler(void)
+{
+}
+
+/**
+  * @brief  This function handles Hard Fault exception.
+  * @param  None
+  * @retval None
+  */
+void HardFault_Handler(void)
+{
+  /* Go to infinite loop when Hard Fault exception occurs */
+  while (1)
+  {
+  }
+}
+
+/**
+  * @brief  This function handles SVCall exception.
+  * @param  None
+  * @retval None
+  */
+void SVC_Handler(void)
+{
+}
+
+/**
+  * @brief  This function handles PendSVC exception.
+  * @param  None
+  * @retval None
+  */
+void PendSV_Handler(void)
+{
+}
+
+/**
+  * @brief  This function handles EXTI 0 1 interrupt request.
+  * @param  None
+  * @retval None
+  */
+void EXTI0_1_IRQHandler(void)
+{
+  EXTI->PR |= 1;
+
+  /* start 8-bit synchronous transmission */
+  if((SPI1->SR & SPI_SR_TXE) == SPI_SR_TXE) /* Test Tx empty */
+  {
+    *(uint8_t *)&(SPI2->DR) = SPI2_DATA; /* To test SPI1 reception */
+    *(uint8_t *)&(SPI1->DR) = SPI1_DATA; /* Will inititiate 8-bit transmission if TXE */
+  }
+}
+
+/**
+  * @brief  This function handles SPI1 interrupt request.
+  * @param  None
+  * @retval None
+  */
+void SPI1_IRQHandler(void)
+{
+  uint8_t SPI1_Data = 0;
+
+  if((SPI1->SR & SPI_SR_RXNE) == SPI_SR_RXNE)
+  {
+    SPI1_Data = (uint8_t)SPI1->DR; /* receive data, clear flag */
+
+    if(SPI1_Data == SPI2_DATA)
+    {
+      GPIOC->ODR ^= GPIO_ODR_9; /* toggle green LED */
+    }
+    else
+    {
+      GPIOC->BSRR = GPIO_BSRR_BS_6; /* lit red LED */
+    }
+  }
+  else
+  {
+    GPIOC->BSRR = GPIO_BSRR_BS_6; /* lit red LED */
+    NVIC_DisableIRQ(SPI1_IRQn); /* Disable SPI1_IRQn */
+  }
+}
+
+/**
+  * @brief  This function handles SPI2 interrupt request.
+  * @param  None
+  * @retval None
+  */
+void SPI2_IRQHandler(void)
+{
+  uint8_t SPI2_Data = 0;
+
+  if((SPI2->SR & SPI_SR_RXNE) == SPI_SR_RXNE)
+  {
+    SPI2_Data = (uint8_t)SPI2->DR; /* Receive data, clear flag */
+
+    if(SPI2_Data == SPI1_DATA)
+    {
+      GPIOC->ODR ^= GPIO_ODR_8; /* toggle blue LED */
+    }
+    else
+    {
+      GPIOC->BSRR = GPIO_BSRR_BS_7; /* lit orange LED */
+    }
+  }
+  else
+  {
+    GPIOC->BSRR = GPIO_BSRR_BS_8; /* lit orange LED */
+    NVIC_DisableIRQ(SPI2_IRQn); /* Disable SPI2_IRQn */
+  }
+}
+
+
+// ----------------------------------------------------------------------------

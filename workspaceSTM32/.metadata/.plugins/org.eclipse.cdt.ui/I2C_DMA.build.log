@@ -1,0 +1,11 @@
+15:40:56 **** Incremental Build of configuration Release for project I2C_DMA ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_DMA.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1958	     72	    264	   2294	    8f6	I2C_DMA.elf
+Finished building: I2C_DMA.siz
+ 
+
+15:40:56 Build Finished (took 62ms)
+

@@ -1,0 +1,28 @@
+//
+// This file is part of the GNU ARM Eclipse distribution.
+// Copyright (c) 2014 Liviu Ionescu.
+//
+
+#ifndef SPI_H_
+#define SPI_H_
+
+#include "stm32f0xx.h"
+
+extern
+void
+blink_led_init(void);
+
+// ----------------------------------------------------------------------------
+
+inline void
+blink_led_on(void);
+
+inline void
+blink_led_off(void);
+
+// ----------------------------------------------------------------------------
+
+
+// ----------------------------------------------------------------------------
+
+#endif // SPI_H_

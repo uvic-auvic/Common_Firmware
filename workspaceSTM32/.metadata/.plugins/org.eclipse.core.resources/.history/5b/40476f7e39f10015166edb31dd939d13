@@ -1,0 +1,13 @@
+//
+// This file is part of the GNU ARM Eclipse distribution.
+// Copyright (c) 2014 Liviu Ionescu.
+//
+
+#include "I2C_DMA.h"
+
+// ----------------------------------------------------------------------------
+/* Private variables ---------------------------------------------------------*/
+uint8_t datatosend[SIZE_OF_DATA]={I2C_CMD_TOGGLE_ORANGE,I2C_CMD_TOGGLE_GREEN};
+uint8_t datatoreceive[SIZE_OF_DATA];
+
+// ----------------------------------------------------------------------------

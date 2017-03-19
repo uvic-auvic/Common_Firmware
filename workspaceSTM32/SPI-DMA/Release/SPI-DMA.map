@@ -1,0 +1,1065 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+                              ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o (__gnu_thumb1_case_uqi)
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+                              ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o (__aeabi_uidiv)
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+                              ./system/src/newlib/_sbrk.o (__errno)
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+                              /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o) (_impure_ptr)
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+                              ./src/SPI_DMA.o (malloc)
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+                              /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o) (_free_r)
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                              /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o) (_malloc_r)
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+                              /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+                              ./src/SPI_DMA.o (strcmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+timer_delayCount    0x4               ./src/Timer.o
+errno               0x4               ./system/src/newlib/_syscalls.o
+stringtoreceivewSPI2
+                    0x4               ./src/SPI_DMA.o
+stringtoreceivewSPI1
+                    0x4               ./src/SPI_DMA.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .data          0x0000000000000000        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .bss           0x0000000000000000        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_DeInit
+                0x0000000000000000       0xac ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_Init
+                0x0000000000000000       0x76 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_StructInit
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x0000000000000000       0x24 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x0000000000000000        0xe ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x0000000000000000        0x6 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x0000000000000000        0xe ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x0000000000000000        0x6 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_SetBits
+                0x0000000000000000        0x4 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_ResetBits
+                0x0000000000000000        0x4 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_WriteBit
+                0x0000000000000000        0xc ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_Write
+                0x0000000000000000        0x4 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text.GPIO_PinAFConfig
+                0x0000000000000000       0x22 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .debug_info    0x0000000000000000      0x686 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .debug_abbrev  0x0000000000000000      0x1d1 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .debug_loc     0x0000000000000000      0x35e ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .debug_aranges
+                0x0000000000000000       0x80 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .debug_ranges  0x0000000000000000       0x70 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .debug_line    0x0000000000000000      0x272 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .debug_str     0x0000000000000000      0x4ac ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .comment       0x0000000000000000       0x5e ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .debug_frame   0x0000000000000000      0x108 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+ .text          0x0000000000000000        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .data          0x0000000000000000        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .bss           0x0000000000000000        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_DeInit
+                0x0000000000000000       0x60 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_HSEConfig
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_HSICmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_AdjustHSI14CalibrationValue
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_HSI14Cmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_HSI14ADCRequestCmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_LSEConfig
+                0x0000000000000000       0x20 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_LSEDriveConfig
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_LSICmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_PLLConfig
+                0x0000000000000000       0x20 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_PLLCmd
+                0x0000000000000000       0x24 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_HSI48Cmd
+                0x0000000000000000       0x24 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_PREDIV1Config
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x0000000000000000       0x24 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_MCOConfig
+                0x0000000000000000        0xc ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_PCLKConfig
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_ADCCLKConfig
+                0x0000000000000000       0x30 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_CECCLKConfig
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_I2CCLKConfig
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_USARTCLKConfig
+                0x0000000000000000       0x28 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_USBCLKConfig
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_GetClocksFreq
+                0x0000000000000000      0x148 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x0000000000000000       0x24 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x0000000000000000       0x24 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_AHBPeriphClockCmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_APB2PeriphClockCmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_APB1PeriphClockCmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_AHBPeriphResetCmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_ITConfig
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x0000000000000000       0x2c ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x0000000000000000       0x2e ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_ClearFlag
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_GetITStatus
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x0000000000000000        0xc ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .data.APBAHBPrescTable
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .debug_info    0x0000000000000000      0xa51 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .debug_abbrev  0x0000000000000000      0x232 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .debug_loc     0x0000000000000000      0x83d ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .debug_aranges
+                0x0000000000000000      0x160 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .debug_ranges  0x0000000000000000      0x150 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .debug_line    0x0000000000000000      0x536 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .debug_str     0x0000000000000000      0x784 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .comment       0x0000000000000000       0x5e ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .debug_frame   0x0000000000000000      0x2c4 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text          0x0000000000000000        0x0 ./system/src/newlib/_cxx.o
+ .data          0x0000000000000000        0x0 ./system/src/newlib/_cxx.o
+ .bss           0x0000000000000000        0x0 ./system/src/newlib/_cxx.o
+ .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x0000000000000000        0x6 ./system/src/newlib/_cxx.o
+ .text.__cxa_pure_virtual
+                0x0000000000000000        0x6 ./system/src/newlib/_cxx.o
+ .debug_info    0x0000000000000000      0x565 ./system/src/newlib/_cxx.o
+ .debug_abbrev  0x0000000000000000      0x1ba ./system/src/newlib/_cxx.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./system/src/newlib/_cxx.o
+ .debug_ranges  0x0000000000000000       0x10 ./system/src/newlib/_cxx.o
+ .debug_line    0x0000000000000000      0x226 ./system/src/newlib/_cxx.o
+ .debug_str     0x0000000000000000      0x310 ./system/src/newlib/_cxx.o
+ .comment       0x0000000000000000       0x5e ./system/src/newlib/_cxx.o
+ .debug_frame   0x0000000000000000       0x40 ./system/src/newlib/_cxx.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./system/src/newlib/_cxx.o
+ .text          0x0000000000000000        0x0 ./system/src/newlib/_exit.o
+ .data          0x0000000000000000        0x0 ./system/src/newlib/_exit.o
+ .bss           0x0000000000000000        0x0 ./system/src/newlib/_exit.o
+ .text.abort    0x0000000000000000        0x8 ./system/src/newlib/_exit.o
+ .text          0x0000000000000000        0x0 ./system/src/newlib/_sbrk.o
+ .data          0x0000000000000000        0x0 ./system/src/newlib/_sbrk.o
+ .bss           0x0000000000000000        0x0 ./system/src/newlib/_sbrk.o
+ .text          0x0000000000000000        0x0 ./system/src/newlib/_startup.o
+ .data          0x0000000000000000        0x0 ./system/src/newlib/_startup.o
+ .bss           0x0000000000000000        0x0 ./system/src/newlib/_startup.o
+ .text.__initialize_data
+                0x0000000000000000        0xc ./system/src/newlib/_startup.o
+ .text.__initialize_bss
+                0x0000000000000000        0xc ./system/src/newlib/_startup.o
+ .text.__run_init_array
+                0x0000000000000000       0x48 ./system/src/newlib/_startup.o
+ .text.__run_fini_array
+                0x0000000000000000       0x24 ./system/src/newlib/_startup.o
+ .text          0x0000000000000000        0x0 ./system/src/newlib/_syscalls.o
+ .data          0x0000000000000000        0x0 ./system/src/newlib/_syscalls.o
+ .bss           0x0000000000000000        0x0 ./system/src/newlib/_syscalls.o
+ .text.raise    0x0000000000000000       0x10 ./system/src/newlib/_syscalls.o
+ .text.kill     0x0000000000000000       0x10 ./system/src/newlib/_syscalls.o
+ .bss.__dso_handle
+                0x0000000000000000        0x4 ./system/src/newlib/_syscalls.o
+ .text          0x0000000000000000        0x0 ./system/src/newlib/assert.o
+ .data          0x0000000000000000        0x0 ./system/src/newlib/assert.o
+ .bss           0x0000000000000000        0x0 ./system/src/newlib/assert.o
+ .text.__assert_func
+                0x0000000000000000        0x6 ./system/src/newlib/assert.o
+ .debug_info    0x0000000000000000      0x10f ./system/src/newlib/assert.o
+ .debug_abbrev  0x0000000000000000       0xa9 ./system/src/newlib/assert.o
+ .debug_loc     0x0000000000000000       0x84 ./system/src/newlib/assert.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./system/src/newlib/assert.o
+ .debug_ranges  0x0000000000000000       0x10 ./system/src/newlib/assert.o
+ .debug_line    0x0000000000000000       0xd6 ./system/src/newlib/assert.o
+ .debug_str     0x0000000000000000      0x1bf ./system/src/newlib/assert.o
+ .comment       0x0000000000000000       0x5e ./system/src/newlib/assert.o
+ .debug_frame   0x0000000000000000       0x28 ./system/src/newlib/assert.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./system/src/newlib/assert.o
+ .text          0x0000000000000000        0x0 ./system/src/diag/Trace.o
+ .data          0x0000000000000000        0x0 ./system/src/diag/Trace.o
+ .bss           0x0000000000000000        0x0 ./system/src/diag/Trace.o
+ .debug_line    0x0000000000000000        0x0 ./system/src/diag/Trace.o
+ .debug_str     0x0000000000000000       0xdc ./system/src/diag/Trace.o
+ .comment       0x0000000000000000       0x5e ./system/src/diag/Trace.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./system/src/diag/Trace.o
+ .text          0x0000000000000000        0x0 ./system/src/diag/trace_impl.o
+ .data          0x0000000000000000        0x0 ./system/src/diag/trace_impl.o
+ .bss           0x0000000000000000        0x0 ./system/src/diag/trace_impl.o
+ .debug_line    0x0000000000000000        0x0 ./system/src/diag/trace_impl.o
+ .debug_str     0x0000000000000000       0xe1 ./system/src/diag/trace_impl.o
+ .comment       0x0000000000000000       0x5e ./system/src/diag/trace_impl.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./system/src/diag/trace_impl.o
+ .text          0x0000000000000000        0x0 ./system/src/cortexm/_initialize_hardware.o
+ .data          0x0000000000000000        0x0 ./system/src/cortexm/_initialize_hardware.o
+ .bss           0x0000000000000000        0x0 ./system/src/cortexm/_initialize_hardware.o
+ .text          0x0000000000000000        0x0 ./system/src/cortexm/_reset_hardware.o
+ .data          0x0000000000000000        0x0 ./system/src/cortexm/_reset_hardware.o
+ .bss           0x0000000000000000        0x0 ./system/src/cortexm/_reset_hardware.o
+ .text          0x0000000000000000        0x0 ./system/src/cortexm/exception_handlers.o
+ .data          0x0000000000000000        0x0 ./system/src/cortexm/exception_handlers.o
+ .bss           0x0000000000000000        0x0 ./system/src/cortexm/exception_handlers.o
+ .text          0x0000000000000000        0x0 ./system/src/cmsis/system_stm32f0xx.o
+ .data          0x0000000000000000        0x0 ./system/src/cmsis/system_stm32f0xx.o
+ .bss           0x0000000000000000        0x0 ./system/src/cmsis/system_stm32f0xx.o
+ .text          0x0000000000000000        0x0 ./system/src/cmsis/vectors_stm32f0xx.o
+ .data          0x0000000000000000        0x0 ./system/src/cmsis/vectors_stm32f0xx.o
+ .bss           0x0000000000000000        0x0 ./system/src/cmsis/vectors_stm32f0xx.o
+ .text          0x0000000000000000        0x0 ./src/BlinkLed.o
+ .data          0x0000000000000000        0x0 ./src/BlinkLed.o
+ .bss           0x0000000000000000        0x0 ./src/BlinkLed.o
+ .text.blink_led_init
+                0x0000000000000000       0x3c ./src/BlinkLed.o
+ .debug_info    0x0000000000000000      0x330 ./src/BlinkLed.o
+ .debug_abbrev  0x0000000000000000      0x14b ./src/BlinkLed.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./src/BlinkLed.o
+ .debug_ranges  0x0000000000000000       0x10 ./src/BlinkLed.o
+ .debug_line    0x0000000000000000      0x150 ./src/BlinkLed.o
+ .debug_str     0x0000000000000000      0x37b ./src/BlinkLed.o
+ .comment       0x0000000000000000       0x5e ./src/BlinkLed.o
+ .debug_frame   0x0000000000000000       0x30 ./src/BlinkLed.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./src/BlinkLed.o
+ .text          0x0000000000000000        0x0 ./src/SPI_DMA.o
+ .data          0x0000000000000000        0x0 ./src/SPI_DMA.o
+ .bss           0x0000000000000000        0x0 ./src/SPI_DMA.o
+ .text          0x0000000000000000        0x0 ./src/Timer.o
+ .data          0x0000000000000000        0x0 ./src/Timer.o
+ .bss           0x0000000000000000        0x0 ./src/Timer.o
+ .text.timer_sleep
+                0x0000000000000000       0x10 ./src/Timer.o
+ .text          0x0000000000000000        0x0 ./src/_write.o
+ .data          0x0000000000000000        0x0 ./src/_write.o
+ .bss           0x0000000000000000        0x0 ./src/_write.o
+ .debug_line    0x0000000000000000        0x0 ./src/_write.o
+ .debug_str     0x0000000000000000       0xd1 ./src/_write.o
+ .comment       0x0000000000000000       0x5e ./src/_write.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./src/_write.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .text          0x0000000000000000       0x14 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .debug_line    0x0000000000000000       0x84 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .debug_info    0x0000000000000000       0xcf /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0000000000000000        0x4 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .text.free     0x0000000000000000       0x14 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .text          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x0000000000000000       0x8c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_info    0x0000000000000000      0x825 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_abbrev  0x0000000000000000      0x1b8 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_loc     0x0000000000000000      0x11e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_ranges  0x0000000000000000       0x10 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_line    0x0000000000000000      0x199 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_str     0x0000000000000000      0x5a8 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .comment       0x0000000000000000       0x5e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000000000       0x2c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000020000000 0x0000000000002000 xrw
+CCMRAM           0x0000000000000000 0x0000000000000000 xrw
+FLASH            0x0000000008000000 0x0000000000010000 xr
+FLASHB1          0x0000000000000000 0x0000000000000000 xr
+EXTMEMB0         0x0000000000000000 0x0000000000000000 xr
+EXTMEMB1         0x0000000000000000 0x0000000000000000 xr
+EXTMEMB2         0x0000000000000000 0x0000000000000000 xr
+EXTMEMB3         0x0000000000000000 0x0000000000000000 xr
+MEMORY_ARRAY     0x0000000000000000 0x0000000000000000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+LOAD ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+LOAD ./system/src/newlib/_cxx.o
+LOAD ./system/src/newlib/_exit.o
+LOAD ./system/src/newlib/_sbrk.o
+LOAD ./system/src/newlib/_startup.o
+LOAD ./system/src/newlib/_syscalls.o
+LOAD ./system/src/newlib/assert.o
+LOAD ./system/src/diag/Trace.o
+LOAD ./system/src/diag/trace_impl.o
+LOAD ./system/src/cortexm/_initialize_hardware.o
+LOAD ./system/src/cortexm/_reset_hardware.o
+LOAD ./system/src/cortexm/exception_handlers.o
+LOAD ./system/src/cmsis/system_stm32f0xx.o
+LOAD ./system/src/cmsis/vectors_stm32f0xx.o
+LOAD ./src/BlinkLed.o
+LOAD ./src/SPI_DMA.o
+LOAD ./src/Timer.o
+LOAD ./src/_write.o
+LOAD ./src/main.o
+LOAD /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a
+LOAD /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libm.a
+START GROUP
+LOAD /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a
+LOAD /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a
+LOAD /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a
+LOAD /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+                0x0000000020002000                __stack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000020002000                _estack = __stack
+                0x0000000000000400                __Main_Stack_Size = 0x400
+                [!provide]                        PROVIDE (_Main_Stack_Size, __Main_Stack_Size)
+                0x0000000020001c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
+                [!provide]                        PROVIDE (_Main_Stack_Limit, __Main_Stack_Limit)
+                0x0000000000000100                _Minimum_Stack_Size = 0x100
+                0x00000000200000a0                PROVIDE (_Heap_Begin, _end_noinit)
+                0x0000000020001c00                PROVIDE (_Heap_Limit, (__stack - __Main_Stack_Size))
+
+.isr_vector     0x0000000008000000      0x1b6
+ FILL mask 0xff
+                0x0000000008000000                __vectors_start = ABSOLUTE (.)
+                0x0000000008000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000       0xc4 ./system/src/cmsis/vectors_stm32f0xx.o
+                0x0000000008000000                g_pfnVectors
+ *(.cfmconfig)
+ *(.after_vectors .after_vectors.*)
+ .after_vectors
+                0x00000000080000c4       0xc0 ./system/src/newlib/_startup.o
+                0x00000000080000c4                _start
+ .after_vectors
+                0x0000000008000184       0x30 ./system/src/cortexm/exception_handlers.o
+                0x0000000008000184                Reset_Handler
+                0x00000000080001a2                HardFault_Handler_C
+ .after_vectors
+                0x00000000080001b4        0x2 ./system/src/cmsis/vectors_stm32f0xx.o
+                0x00000000080001b4                TIM1_CC_IRQHandler
+                0x00000000080001b4                TSC_IRQHandler
+                0x00000000080001b4                ADC1_COMP_IRQHandler
+                0x00000000080001b4                PVD_IRQHandler
+                0x00000000080001b4                I2C1_IRQHandler
+                0x00000000080001b4                RCC_CRS_IRQHandler
+                0x00000000080001b4                SPI1_IRQHandler
+                0x00000000080001b4                TIM6_DAC_IRQHandler
+                0x00000000080001b4                USART3_4_IRQHandler
+                0x00000000080001b4                EXTI2_3_IRQHandler
+                0x00000000080001b4                ADC1_IRQHandler
+                0x00000000080001b4                I2C2_IRQHandler
+                0x00000000080001b4                TIM17_IRQHandler
+                0x00000000080001b4                CEC_CAN_IRQHandler
+                0x00000000080001b4                RTC_IRQHandler
+                0x00000000080001b4                PVD_VDDIO2_IRQHandler
+                0x00000000080001b4                DMA1_Channel4_5_6_7_IRQHandler
+                0x00000000080001b4                TIM16_IRQHandler
+                0x00000000080001b4                TIM3_IRQHandler
+                0x00000000080001b4                RCC_IRQHandler
+                0x00000000080001b4                EXTI4_15_IRQHandler
+                0x00000000080001b4                DMA1_Channel1_IRQHandler
+                0x00000000080001b4                Default_Handler
+                0x00000000080001b4                CEC_IRQHandler
+                0x00000000080001b4                TIM14_IRQHandler
+                0x00000000080001b4                TIM7_IRQHandler
+                0x00000000080001b4                TIM15_IRQHandler
+                0x00000000080001b4                USB_IRQHandler
+                0x00000000080001b4                SPI2_IRQHandler
+                0x00000000080001b4                TS_IRQHandler
+                0x00000000080001b4                WWDG_IRQHandler
+                0x00000000080001b4                TIM2_IRQHandler
+                0x00000000080001b4                USART2_IRQHandler
+                0x00000000080001b4                FLASH_IRQHandler
+                0x00000000080001b4                USART1_IRQHandler
+                0x00000000080001b4                TIM1_BRK_UP_TRG_COM_IRQHandler
+
+.inits          0x00000000080001b8       0x28
+                0x00000000080001b8                __data_regions_array_start = .
+                0x00000000080001b8        0x4 LONG 0x80009e0 LOADADDR (.data)
+                0x00000000080001bc        0x4 LONG 0x20000000 ADDR (.data)
+                0x00000000080001c0        0x4 LONG 0x20000080 (ADDR (.data) + SIZEOF (.data))
+                0x00000000080001c4        0x4 LONG 0x80009e0 LOADADDR (.data_CCMRAM)
+                0x00000000080001c8        0x4 LONG 0x0 ADDR (.data_CCMRAM)
+                0x00000000080001cc        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
+                0x00000000080001d0                __data_regions_array_end = .
+                0x00000000080001d0                __bss_regions_array_start = .
+                0x00000000080001d0        0x4 LONG 0x20000080 ADDR (.bss)
+                0x00000000080001d4        0x4 LONG 0x200000a0 (ADDR (.bss) + SIZEOF (.bss))
+                0x00000000080001d8        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
+                0x00000000080001dc        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
+                0x00000000080001e0                __bss_regions_array_end = .
+ *(.init)
+ *(.fini)
+                0x00000000080001e0                . = ALIGN (0x4)
+                0x00000000080001e0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array_sysinit .preinit_array_sysinit.*)
+ *(.preinit_array_platform .preinit_array_platform.*)
+ *(.preinit_array .preinit_array.*)
+                0x00000000080001e0                PROVIDE (__preinit_array_end, .)
+                0x00000000080001e0                . = ALIGN (0x4)
+                0x00000000080001e0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x00000000080001e0                PROVIDE (__init_array_end, .)
+                0x00000000080001e0                . = ALIGN (0x4)
+                0x00000000080001e0                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x00000000080001e0                PROVIDE (__fini_array_end, .)
+
+.flashtext
+ *(.flashtext .flashtext.*)
+
+.text           0x00000000080001e0      0x800
+ *(.text .text.*)
+ .text._exit    0x00000000080001e0        0x6 ./system/src/newlib/_exit.o
+                0x00000000080001e0                _exit
+ *fill*         0x00000000080001e6        0x2 
+ .text._sbrk    0x00000000080001e8       0x40 ./system/src/newlib/_sbrk.o
+                0x00000000080001e8                _sbrk
+ .text.__initialize_args
+                0x0000000008000228       0x10 ./system/src/newlib/_syscalls.o
+                0x0000000008000228                __initialize_args
+ .text.__initialize_hardware_early
+                0x0000000008000238        0x8 ./system/src/cortexm/_initialize_hardware.o
+                0x0000000008000238                __initialize_hardware_early
+ .text.__initialize_hardware
+                0x0000000008000240        0x8 ./system/src/cortexm/_initialize_hardware.o
+                0x0000000008000240                __initialize_hardware
+ .text.__reset_hardware
+                0x0000000008000248       0x1c ./system/src/cortexm/_reset_hardware.o
+                0x0000000008000248                __reset_hardware
+ .text.SystemInit
+                0x0000000008000264       0xfc ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000008000264                SystemInit
+ .text.SystemCoreClockUpdate
+                0x0000000008000360       0x68 ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000008000360                SystemCoreClockUpdate
+ .text.Configure_GPIO_LED
+                0x00000000080003c8       0x3c ./src/SPI_DMA.o
+                0x00000000080003c8                Configure_GPIO_LED
+ .text.Configure_GPIO_SPI1
+                0x0000000008000404       0x30 ./src/SPI_DMA.o
+                0x0000000008000404                Configure_GPIO_SPI1
+ .text.Configure_DMA1_SPI1
+                0x0000000008000434       0x70 ./src/SPI_DMA.o
+                0x0000000008000434                Configure_DMA1_SPI1
+ .text.Configure_SPI1
+                0x00000000080004a4       0x2c ./src/SPI_DMA.o
+                0x00000000080004a4                Configure_SPI1
+ .text.Configure_GPIO_SPI2
+                0x00000000080004d0       0x2c ./src/SPI_DMA.o
+                0x00000000080004d0                Configure_GPIO_SPI2
+ .text.Configure_DMA1_SPI2
+                0x00000000080004fc       0x6c ./src/SPI_DMA.o
+                0x00000000080004fc                Configure_DMA1_SPI2
+ .text.Configure_SPI2
+                0x0000000008000568       0x28 ./src/SPI_DMA.o
+                0x0000000008000568                Configure_SPI2
+ .text.Configure_GPIO_Button
+                0x0000000008000590       0x20 ./src/SPI_DMA.o
+                0x0000000008000590                Configure_GPIO_Button
+ .text.Configure_EXTI
+                0x00000000080005b0       0x40 ./src/SPI_DMA.o
+                0x00000000080005b0                Configure_EXTI
+ .text.EXTI0_1_IRQHandler
+                0x00000000080005f0       0x3c ./src/SPI_DMA.o
+                0x00000000080005f0                EXTI0_1_IRQHandler
+ .text.DMA1_Channel2_3_IRQHandler
+                0x000000000800062c       0x70 ./src/SPI_DMA.o
+                0x000000000800062c                DMA1_Channel2_3_IRQHandler
+ .text.DMA1_Channel4_5_IRQHandler
+                0x000000000800069c       0x74 ./src/SPI_DMA.o
+                0x000000000800069c                DMA1_Channel4_5_IRQHandler
+ .text.timer_start
+                0x0000000008000710       0x44 ./src/Timer.o
+                0x0000000008000710                timer_start
+ .text.timer_tick
+                0x0000000008000754       0x14 ./src/Timer.o
+                0x0000000008000754                timer_tick
+ .text.SysTick_Handler
+                0x0000000008000768        0x8 ./src/Timer.o
+                0x0000000008000768                SysTick_Handler
+ .text.startup.main
+                0x0000000008000770       0x38 ./src/main.o
+                0x0000000008000770                main
+ .text.NMI_Handler
+                0x00000000080007a8        0x2 ./src/main.o
+                0x00000000080007a8                NMI_Handler
+ .text.HardFault_Handler
+                0x00000000080007aa        0x2 ./src/main.o
+                0x00000000080007aa                HardFault_Handler
+ .text.SVC_Handler
+                0x00000000080007ac        0x2 ./src/main.o
+                0x00000000080007ac                SVC_Handler
+ .text.PendSV_Handler
+                0x00000000080007ae        0x2 ./src/main.o
+                0x00000000080007ae                PendSV_Handler
+ .text          0x00000000080007b0      0x114 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+                0x00000000080007b0                __udivsi3
+                0x00000000080007b0                __aeabi_uidiv
+                0x00000000080008bc                __aeabi_uidivmod
+ .text          0x00000000080008c4        0x4 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x00000000080008c4                __aeabi_ldiv0
+                0x00000000080008c4                __aeabi_idiv0
+ .text.__errno  0x00000000080008c8        0xc /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+                0x00000000080008c8                __errno
+ .text.malloc   0x00000000080008d4       0x14 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+                0x00000000080008d4                malloc
+ .text._malloc_r
+                0x00000000080008e8       0xac /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000000080008e8                _malloc_r
+ .text._sbrk_r  0x0000000008000994       0x24 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+                0x0000000008000994                _sbrk_r
+ .text          0x00000000080009b8       0x14 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+                0x00000000080009b8                strcmp
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.stringtosendwSPI1
+                0x00000000080009cc        0x9 ./src/SPI_DMA.o
+                0x00000000080009cc                stringtosendwSPI1
+ .rodata.stringtosendwSPI2
+                0x00000000080009d5        0x9 ./src/SPI_DMA.o
+                0x00000000080009d5                stringtosendwSPI2
+ .rodata.str1.1
+                0x00000000080009de        0x2 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ *(vtable)
+ *(.eh_frame*)
+ *(.glue_7)
+ .glue_7        0x00000000080009e0        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000080009e0        0x0 linker stubs
+
+.vfp11_veneer   0x00000000080009e0        0x0
+ .vfp11_veneer  0x00000000080009e0        0x0 linker stubs
+
+.v4_bx          0x00000000080009e0        0x0
+ .v4_bx         0x00000000080009e0        0x0 linker stubs
+
+.iplt           0x00000000080009e0        0x0
+ .iplt          0x00000000080009e0        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+
+.rel.dyn        0x00000000080009e0        0x0
+ .rel.iplt      0x00000000080009e0        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000080009e0                . = ALIGN (0x4)
+                0x00000000080009e0                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000000080009e0                __exidx_end = .
+                0x00000000080009e0                . = ALIGN (0x4)
+                0x00000000080009e0                _etext = .
+                0x00000000080009e0                __etext = .
+
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x00000000080009e0
+ FILL mask 0xff
+ *(.data.CCMRAM .data.CCMRAM.*)
+                0x0000000000000000                . = ALIGN (0x4)
+                0x00000000080009e0                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000       0x80 load address 0x00000000080009e0
+ FILL mask 0xff
+                0x0000000020000000                _sdata = .
+                0x0000000020000000                __data_start__ = .
+ *(.data_begin .data_begin.*)
+ *(.data .data.*)
+ .data.argv.4238
+                0x0000000020000000        0x8 ./system/src/newlib/_syscalls.o
+ .data.AHBPrescTable
+                0x0000000020000008       0x10 ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000020000008                AHBPrescTable
+ .data.SystemCoreClock
+                0x0000000020000018        0x4 ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000020000018                SystemCoreClock
+ .data.impure_data
+                0x000000002000001c       0x60 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x000000002000007c        0x4 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+                0x000000002000007c                _impure_ptr
+ *(.data_end .data_end.*)
+                0x0000000020000080                . = ALIGN (0x4)
+                0x0000000020000080                _edata = .
+                0x0000000020000080                __data_end__ = .
+
+.igot.plt       0x0000000020000080        0x0 load address 0x0000000008000a60
+ .igot.plt      0x0000000020000080        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+
+.bss_CCMRAM     0x0000000000000000        0x0
+ *(.bss.CCMRAM .bss.CCMRAM.*)
+
+.bss            0x0000000020000080       0x20
+                0x0000000020000080                __bss_start__ = .
+                0x0000000020000080                _sbss = .
+ *(.bss_begin .bss_begin.*)
+ *(.bss .bss.*)
+ .bss.current_heap_end.3921
+                0x0000000020000080        0x4 ./system/src/newlib/_sbrk.o
+ .bss.name.4237
+                0x0000000020000084        0x1 ./system/src/newlib/_syscalls.o
+ *fill*         0x0000000020000085        0x3 
+ .bss.__malloc_sbrk_start
+                0x0000000020000088        0x4 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000088                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x000000002000008c        0x4 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x000000002000008c                __malloc_free_list
+ *(COMMON)
+ COMMON         0x0000000020000090        0x4 ./system/src/newlib/_syscalls.o
+                0x0000000020000090                errno
+ COMMON         0x0000000020000094        0x8 ./src/SPI_DMA.o
+                0x0000000020000094                stringtoreceivewSPI2
+                0x0000000020000098                stringtoreceivewSPI1
+ COMMON         0x000000002000009c        0x4 ./src/Timer.o
+                0x000000002000009c                timer_delayCount
+ *(.bss_end .bss_end.*)
+                0x00000000200000a0                . = ALIGN (0x4)
+                0x00000000200000a0                __bss_end__ = .
+                0x00000000200000a0                _ebss = .
+
+.noinit_CCMRAM
+ *(.noinit.CCMRAM .noinit.CCMRAM.*)
+
+.noinit         0x00000000200000a0        0x0
+                0x00000000200000a0                _noinit = .
+ *(.noinit .noinit.*)
+                0x00000000200000a0                . = ALIGN (0x4)
+                0x00000000200000a0                _end_noinit = .
+                [!provide]                        PROVIDE (end, _end_noinit)
+                [!provide]                        PROVIDE (_end, _end_noinit)
+                [!provide]                        PROVIDE (__end, _end_noinit)
+                [!provide]                        PROVIDE (__end__, _end_noinit)
+
+._check_stack   0x00000000200000a0      0x100
+                0x00000000200001a0                . = (. + _Minimum_Stack_Size)
+ *fill*         0x00000000200000a0      0x100 
+
+.b1text
+ *(.b1text)
+ *(.b1rodata)
+ *(.b1rodata.*)
+
+.eb0text
+ *(.eb0text)
+ *(.eb0rodata)
+ *(.eb0rodata.*)
+
+.eb1text
+ *(.eb1text)
+ *(.eb1rodata)
+ *(.eb1rodata.*)
+
+.eb2text
+ *(.eb2text)
+ *(.eb2rodata)
+ *(.eb2rodata.*)
+
+.eb3text
+ *(.eb3text)
+ *(.eb3rodata)
+ *(.eb3rodata.*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x5d
+ *(.comment)
+ .comment       0x0000000000000000       0x5d ./system/src/newlib/_exit.o
+                                         0x5e (size before relaxing)
+ .comment       0x000000000000005d       0x5e ./system/src/newlib/_sbrk.o
+ .comment       0x000000000000005d       0x5e ./system/src/newlib/_startup.o
+ .comment       0x000000000000005d       0x5e ./system/src/newlib/_syscalls.o
+ .comment       0x000000000000005d       0x5e ./system/src/cortexm/_initialize_hardware.o
+ .comment       0x000000000000005d       0x5e ./system/src/cortexm/_reset_hardware.o
+ .comment       0x000000000000005d       0x5e ./system/src/cortexm/exception_handlers.o
+ .comment       0x000000000000005d       0x5e ./system/src/cmsis/system_stm32f0xx.o
+ .comment       0x000000000000005d       0x5e ./system/src/cmsis/vectors_stm32f0xx.o
+ .comment       0x000000000000005d       0x5e ./src/SPI_DMA.o
+ .comment       0x000000000000005d       0x5e ./src/Timer.o
+ .comment       0x000000000000005d       0x5e ./src/main.o
+ .comment       0x000000000000005d       0x5e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .comment       0x000000000000005d       0x5e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .comment       0x000000000000005d       0x5e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .comment       0x000000000000005d       0x5e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .comment       0x000000000000005d       0x5e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2f
+ .ARM.attributes
+                0x0000000000000000       0x31 ./system/src/newlib/_exit.o
+ .ARM.attributes
+                0x0000000000000031       0x31 ./system/src/newlib/_sbrk.o
+ .ARM.attributes
+                0x0000000000000062       0x31 ./system/src/newlib/_startup.o
+ .ARM.attributes
+                0x0000000000000093       0x31 ./system/src/newlib/_syscalls.o
+ .ARM.attributes
+                0x00000000000000c4       0x31 ./system/src/cortexm/_initialize_hardware.o
+ .ARM.attributes
+                0x00000000000000f5       0x31 ./system/src/cortexm/_reset_hardware.o
+ .ARM.attributes
+                0x0000000000000126       0x31 ./system/src/cortexm/exception_handlers.o
+ .ARM.attributes
+                0x0000000000000157       0x31 ./system/src/cmsis/system_stm32f0xx.o
+ .ARM.attributes
+                0x0000000000000188       0x31 ./system/src/cmsis/vectors_stm32f0xx.o
+ .ARM.attributes
+                0x00000000000001b9       0x31 ./src/SPI_DMA.o
+ .ARM.attributes
+                0x00000000000001ea       0x31 ./src/Timer.o
+ .ARM.attributes
+                0x000000000000021b       0x31 ./src/main.o
+ .ARM.attributes
+                0x000000000000024c       0x1e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000000000000026a       0x1e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000288       0x2c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000000002b4       0x2c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000002e0       0x2c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x000000000000030c       0x2c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000000000000338       0x2c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000364       0x1c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x378
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ./system/src/newlib/_exit.o
+ .debug_aranges
+                0x0000000000000028       0x20 ./system/src/newlib/_sbrk.o
+ .debug_aranges
+                0x0000000000000048       0x40 ./system/src/newlib/_startup.o
+ .debug_aranges
+                0x0000000000000088       0x30 ./system/src/newlib/_syscalls.o
+ .debug_aranges
+                0x00000000000000b8       0x28 ./system/src/cortexm/_initialize_hardware.o
+ .debug_aranges
+                0x00000000000000e0       0x20 ./system/src/cortexm/_reset_hardware.o
+ .debug_aranges
+                0x0000000000000100       0x50 ./system/src/cortexm/exception_handlers.o
+ .debug_aranges
+                0x0000000000000150       0x28 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_aranges
+                0x0000000000000178       0x20 ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_aranges
+                0x0000000000000198       0x78 ./src/SPI_DMA.o
+ .debug_aranges
+                0x0000000000000210       0x38 ./src/Timer.o
+ .debug_aranges
+                0x0000000000000248       0x30 ./src/main.o
+ .debug_aranges
+                0x0000000000000278       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x0000000000000298       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000000000002b8       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .debug_aranges
+                0x00000000000002d8       0x18 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000000000002f0       0x28 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_aranges
+                0x0000000000000318       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_aranges
+                0x0000000000000338       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x0000000000000358       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x4af5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x104 ./system/src/newlib/_exit.o
+ .debug_info    0x0000000000000104      0x11b ./system/src/newlib/_sbrk.o
+ .debug_info    0x000000000000021f      0x3ec ./system/src/newlib/_startup.o
+ .debug_info    0x000000000000060b      0x1b8 ./system/src/newlib/_syscalls.o
+ .debug_info    0x00000000000007c3       0xc7 ./system/src/cortexm/_initialize_hardware.o
+ .debug_info    0x000000000000088a      0x195 ./system/src/cortexm/_reset_hardware.o
+ .debug_info    0x0000000000000a1f      0x1a7 ./system/src/cortexm/exception_handlers.o
+ .debug_info    0x0000000000000bc6      0x300 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_info    0x0000000000000ec6       0xcd ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_info    0x0000000000000f93      0xa17 ./src/SPI_DMA.o
+ .debug_info    0x00000000000019aa      0x478 ./src/Timer.o
+ .debug_info    0x0000000000001e22      0x2fc ./src/main.o
+ .debug_info    0x000000000000211e       0xcf /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_info    0x00000000000021ed       0xcf /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000000000022bc      0x738 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .debug_info    0x00000000000029f4      0x7d6 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .debug_info    0x00000000000031ca      0x7ae /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_info    0x0000000000003978      0x8ea /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_info    0x0000000000004262      0x79d /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_info    0x00000000000049ff       0xf6 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+
+.debug_abbrev   0x0000000000000000     0x14f9
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0xbb ./system/src/newlib/_exit.o
+ .debug_abbrev  0x00000000000000bb       0xb6 ./system/src/newlib/_sbrk.o
+ .debug_abbrev  0x0000000000000171      0x19e ./system/src/newlib/_startup.o
+ .debug_abbrev  0x000000000000030f       0xe9 ./system/src/newlib/_syscalls.o
+ .debug_abbrev  0x00000000000003f8       0x60 ./system/src/cortexm/_initialize_hardware.o
+ .debug_abbrev  0x0000000000000458       0xe9 ./system/src/cortexm/_reset_hardware.o
+ .debug_abbrev  0x0000000000000541       0xc4 ./system/src/cortexm/exception_handlers.o
+ .debug_abbrev  0x0000000000000605      0x150 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_abbrev  0x0000000000000755       0x9a ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_abbrev  0x00000000000007ef      0x1d4 ./src/SPI_DMA.o
+ .debug_abbrev  0x00000000000009c3      0x1c6 ./src/Timer.o
+ .debug_abbrev  0x0000000000000b89      0x165 ./src/main.o
+ .debug_abbrev  0x0000000000000cee       0x14 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000000d02       0x14 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000000d16      0x132 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .debug_abbrev  0x0000000000000e48      0x134 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000f7c      0x185 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_abbrev  0x0000000000001101      0x246 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_abbrev  0x0000000000001347      0x19e /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x00000000000014e5       0x14 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+
+.debug_line     0x0000000000000000     0x1891
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x137 ./system/src/newlib/_exit.o
+ .debug_line    0x0000000000000137       0xcc ./system/src/newlib/_sbrk.o
+ .debug_line    0x0000000000000203      0x104 ./system/src/newlib/_startup.o
+ .debug_line    0x0000000000000307      0x149 ./system/src/newlib/_syscalls.o
+ .debug_line    0x0000000000000450       0xa0 ./system/src/cortexm/_initialize_hardware.o
+ .debug_line    0x00000000000004f0      0x10d ./system/src/cortexm/_reset_hardware.o
+ .debug_line    0x00000000000005fd      0x178 ./system/src/cortexm/exception_handlers.o
+ .debug_line    0x0000000000000775      0x157 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_line    0x00000000000008cc       0x58 ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_line    0x0000000000000924      0x34c ./src/SPI_DMA.o
+ .debug_line    0x0000000000000c70      0x16f ./src/Timer.o
+ .debug_line    0x0000000000000ddf       0xeb ./src/main.o
+ .debug_line    0x0000000000000eca       0x88 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_line    0x0000000000000f52       0x7c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000000fce      0x166 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .debug_line    0x0000000000001134      0x149 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+ .debug_line    0x000000000000127d      0x1ca /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_line    0x0000000000001447      0x1f4 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_line    0x000000000000163b      0x1be /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_line    0x00000000000017f9       0x98 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+
+.debug_frame    0x0000000000000000      0x538
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x40 ./system/src/newlib/_exit.o
+ .debug_frame   0x0000000000000040       0x28 ./system/src/newlib/_sbrk.o
+ .debug_frame   0x0000000000000068       0x88 ./system/src/newlib/_startup.o
+ .debug_frame   0x00000000000000f0       0x50 ./system/src/newlib/_syscalls.o
+ .debug_frame   0x0000000000000140       0x40 ./system/src/cortexm/_initialize_hardware.o
+ .debug_frame   0x0000000000000180       0x20 ./system/src/cortexm/_reset_hardware.o
+ .debug_frame   0x00000000000001a0       0x80 ./system/src/cortexm/exception_handlers.o
+ .debug_frame   0x0000000000000220       0x40 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_frame   0x0000000000000260       0x20 ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_frame   0x0000000000000280       0xf8 ./src/SPI_DMA.o
+ .debug_frame   0x0000000000000378       0x60 ./src/Timer.o
+ .debug_frame   0x00000000000003d8       0x68 ./src/main.o
+ .debug_frame   0x0000000000000440       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000460       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000480       0x40 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x00000000000004c0       0x2c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000004ec       0x2c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000518       0x20 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-strcmp.o)
+
+.debug_str      0x0000000000000000     0x1272
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x170 ./system/src/newlib/_exit.o
+                                        0x1a9 (size before relaxing)
+ .debug_str     0x0000000000000170       0x77 ./system/src/newlib/_sbrk.o
+                                        0x1d6 (size before relaxing)
+ .debug_str     0x00000000000001e7      0x16d ./system/src/newlib/_startup.o
+                                        0x2ee (size before relaxing)
+ .debug_str     0x0000000000000354       0x52 ./system/src/newlib/_syscalls.o
+                                        0x1d6 (size before relaxing)
+ .debug_str     0x00000000000003a6       0x4e ./system/src/cortexm/_initialize_hardware.o
+                                        0x1ce (size before relaxing)
+ .debug_str     0x00000000000003f4       0x79 ./system/src/cortexm/_reset_hardware.o
+                                        0x1e1 (size before relaxing)
+ .debug_str     0x000000000000046d       0xbb ./system/src/cortexm/exception_handlers.o
+                                        0x223 (size before relaxing)
+ .debug_str     0x0000000000000528      0x113 ./system/src/cmsis/system_stm32f0xx.o
+                                        0x295 (size before relaxing)
+ .debug_str     0x000000000000063b       0x56 ./system/src/cmsis/vectors_stm32f0xx.o
+                                        0x1a4 (size before relaxing)
+ .debug_str     0x0000000000000691      0x488 ./src/SPI_DMA.o
+                                        0x69e (size before relaxing)
+ .debug_str     0x0000000000000b19       0x83 ./src/Timer.o
+                                        0x452 (size before relaxing)
+ .debug_str     0x0000000000000b9c       0x2a ./src/main.o
+                                        0x2e0 (size before relaxing)
+ .debug_str     0x0000000000000bc6      0x3e8 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+                                        0x4d1 (size before relaxing)
+ .debug_str     0x0000000000000fae       0xb1 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-impure.o)
+                                        0x528 (size before relaxing)
+ .debug_str     0x000000000000105f       0x77 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+                                        0x4fc (size before relaxing)
+ .debug_str     0x00000000000010d6      0x140 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                                        0x5d3 (size before relaxing)
+ .debug_str     0x0000000000001216       0x5c /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+                                        0x4e0 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x816
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x21 ./system/src/newlib/_exit.o
+ .debug_loc     0x0000000000000021       0x5f ./system/src/newlib/_sbrk.o
+ .debug_loc     0x0000000000000080      0x218 ./system/src/newlib/_startup.o
+ .debug_loc     0x0000000000000298       0x63 ./system/src/newlib/_syscalls.o
+ .debug_loc     0x00000000000002fb       0xe7 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_loc     0x00000000000003e2       0xdc ./src/SPI_DMA.o
+ .debug_loc     0x00000000000004be       0x49 ./src/Timer.o
+ .debug_loc     0x0000000000000507       0x56 ./src/main.o
+ .debug_loc     0x000000000000055d       0x58 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_loc     0x00000000000005b5      0x214 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_loc     0x00000000000007c9       0x4d /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(SPI-DMA.elf elf32-littlearm)
+
+.debug_ranges   0x0000000000000000      0x300
+ .debug_ranges  0x0000000000000000       0x18 ./system/src/newlib/_exit.o
+ .debug_ranges  0x0000000000000018       0x10 ./system/src/newlib/_sbrk.o
+ .debug_ranges  0x0000000000000028       0x48 ./system/src/newlib/_startup.o
+ .debug_ranges  0x0000000000000070       0x20 ./system/src/newlib/_syscalls.o
+ .debug_ranges  0x0000000000000090       0x18 ./system/src/cortexm/_initialize_hardware.o
+ .debug_ranges  0x00000000000000a8       0x10 ./system/src/cortexm/_reset_hardware.o
+ .debug_ranges  0x00000000000000b8       0x40 ./system/src/cortexm/exception_handlers.o
+ .debug_ranges  0x00000000000000f8       0x38 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_ranges  0x0000000000000130       0x10 ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_ranges  0x0000000000000140       0xe8 ./src/SPI_DMA.o
+ .debug_ranges  0x0000000000000228       0x58 ./src/Timer.o
+ .debug_ranges  0x0000000000000280       0x20 ./src/main.o
+ .debug_ranges  0x00000000000002a0       0x10 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-errno.o)
+ .debug_ranges  0x00000000000002b0       0x18 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_ranges  0x00000000000002c8       0x28 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_ranges  0x00000000000002f0       0x10 /home/googly/ARMToolchains/gcc-arm-none-eabi-5_3-151225/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libg_nano.a(lib_a-sbrkr.o)
